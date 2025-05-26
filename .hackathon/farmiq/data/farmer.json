@@ -1,0 +1,29 @@
+[
+        {
+            "id": "f001",
+            "name": "John",
+            "surname": "Doe",
+            "age": 45,
+            "address": "123 Farm Road, Farmville",
+            "phone": "+1-555-123-4567",
+            "email": "john.doe@example.com"
+        },
+        {
+            "id": "f002",
+            "name": "Mary",
+            "surname": "Smith",
+            "age": 38,
+            "address": "456 Harvest Lane, Croptown",
+            "phone": "+1-555-987-6543",
+            "email": "mary.smith@example.com"
+        },
+        {
+            "id": "f003",
+            "name": "Robert",
+            "surname": "Johnson",
+            "age": 52,
+            "address": "789 Orchard Street, Plantsville",
+            "phone": "+1-555-456-7890",
+            "email": "robert.johnson@example.com"
+        }
+    ]

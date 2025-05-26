@@ -1,0 +1,74 @@
+[
+        {
+            "id": "l001",
+            "farmer_id": "f001",
+            "name": "North Field",
+            "area": 50,  
+            "soil_type": "Clay Loam",
+            "location": "41.8781° N, 87.6298° W",
+            "irrigation_type": "Sprinkler"
+        },
+        {
+            "id": "l002",
+            "farmer_id": "f001",
+            "name": "South Field",
+            "area": 35,  
+            "soil_type": "Sandy Loam",
+            "location": "41.8700° N, 87.6300° W",
+            "irrigation_type": "Drip"
+        },
+        {
+            "id": "l003",
+            "farmer_id": "f002",
+            "name": "East Orchard",
+            "area": 25,  
+            "soil_type": "Silt Loam",
+            "location": "42.9634° N, 85.6681° W",
+            "irrigation_type": "Surface"
+        },
+        {
+            "id": "l004",
+            "farmer_id": "f003",
+            "name": "West Vineyard",
+            "area": 40,  
+            "soil_type": "Sandy Clay",
+            "location": "43.0389° N, 87.9065° W", 
+            "irrigation_type": "Drip"
+        },
+        {
+            "id": "l005",
+            "farmer_id": "f001",
+            "name": "River Field",
+            "area": 45,
+            "soil_type": "Alluvial",
+            "location": "41.8750° N, 87.6350° W",
+            "irrigation_type": "Flood"
+        },
+        {
+            "id": "l006",
+            "farmer_id": "f002",
+            "name": "Hill Plot",
+            "area": 30,
+            "soil_type": "Loamy Sand",
+            "location": "42.9700° N, 85.6700° W",
+            "irrigation_type": "Drip"
+        },
+        {
+            "id": "l007",
+            "farmer_id": "f002",
+            "name": "Valley Garden",
+            "area": 20,
+            "soil_type": "Rich Loam",
+            "location": "42.9650° N, 85.6620° W",
+            "irrigation_type": "Sprinkler"
+        },
+        {
+            "id": "l008",
+            "farmer_id": "f003",
+            "name": "Greenhouse Area",
+            "area": 15,
+            "soil_type": "Modified Potting Mix",
+            "location": "43.0400° N, 87.9100° W",
+            "irrigation_type": "Drip"
+        }
+    ]

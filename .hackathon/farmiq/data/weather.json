@@ -1,0 +1,47 @@
+{
+        "41.8781° N, 87.6298° W": [  
+            {"date": "2025-05-23", "condition": "Sunny", "temperature": 25, "precipitation": 0, "humidity": 45, "wind_speed": 8},
+            {"date": "2025-05-24", "condition": "Partly Cloudy", "temperature": 27, "precipitation": 0, "humidity": 50, "wind_speed": 10},
+            {"date": "2025-05-25", "condition": "Cloudy", "temperature": 26, "precipitation": 10, "humidity": 60, "wind_speed": 12},
+            {"date": "2025-05-26", "condition": "Light Rain", "temperature": 23, "precipitation": 15, "humidity": 70, "wind_speed": 15},
+            {"date": "2025-05-27", "condition": "Sunny", "temperature": 24, "precipitation": 0, "humidity": 55, "wind_speed": 8},
+            {"date": "2025-05-28", "condition": "Sunny", "temperature": 26, "precipitation": 0, "humidity": 45, "wind_speed": 7},
+            {"date": "2025-05-29", "condition": "Partly Cloudy", "temperature": 25, "precipitation": 5, "humidity": 55, "wind_speed": 10}
+        ],
+        "42.9634° N, 85.6681° W": [  
+            {"date": "2025-05-23", "condition": "Partly Cloudy", "temperature": 23, "precipitation": 0, "humidity": 50, "wind_speed": 10},
+            {"date": "2025-05-24", "condition": "Cloudy", "temperature": 22, "precipitation": 5, "humidity": 65, "wind_speed": 12},
+            {"date": "2025-05-25", "condition": "Light Rain", "temperature": 20, "precipitation": 20, "humidity": 75, "wind_speed": 15},
+            {"date": "2025-05-26", "condition": "Rain", "temperature": 19, "precipitation": 30, "humidity": 85, "wind_speed": 20},
+            {"date": "2025-05-27", "condition": "Cloudy", "temperature": 21, "precipitation": 10, "humidity": 70, "wind_speed": 12},
+            {"date": "2025-05-28", "condition": "Partly Cloudy", "temperature": 23, "precipitation": 0, "humidity": 60, "wind_speed": 10},
+            {"date": "2025-05-29", "condition": "Sunny", "temperature": 24, "precipitation": 0, "humidity": 50, "wind_speed": 8}
+        ],
+        "43.0389° N, 87.9065° W": [  
+            {"date": "2025-05-23", "condition": "Sunny", "temperature": 26, "precipitation": 0, "humidity": 40, "wind_speed": 8},
+            {"date": "2025-05-24", "condition": "Sunny", "temperature": 28, "precipitation": 0, "humidity": 45, "wind_speed": 7},
+            {"date": "2025-05-25", "condition": "Partly Cloudy", "temperature": 27, "precipitation": 0, "humidity": 50, "wind_speed": 10},
+            {"date": "2025-05-26", "condition": "Cloudy", "temperature": 26, "precipitation": 5, "humidity": 60, "wind_speed": 12},
+            {"date": "2025-05-27", "condition": "Light Rain", "temperature": 24, "precipitation": 15, "humidity": 70, "wind_speed": 15},
+            {"date": "2025-05-28", "condition": "Cloudy", "temperature": 25, "precipitation": 5, "humidity": 65, "wind_speed": 10},
+            {"date": "2025-05-29", "condition": "Sunny", "temperature": 27, "precipitation": 0, "humidity": 45, "wind_speed": 7}
+        ],
+        "41.8750° N, 87.6350° W": [
+            {"date": "2025-05-23", "condition": "Sunny", "temperature": 26, "precipitation": 0, "humidity": 42, "wind_speed": 7},
+            {"date": "2025-05-24", "condition": "Partly Cloudy", "temperature": 28, "precipitation": 0, "humidity": 48, "wind_speed": 9},
+            {"date": "2025-05-25", "condition": "Cloudy", "temperature": 25, "precipitation": 8, "humidity": 58, "wind_speed": 11},
+            {"date": "2025-05-26", "condition": "Light Rain", "temperature": 22, "precipitation": 12, "humidity": 68, "wind_speed": 14},
+            {"date": "2025-05-27", "condition": "Sunny", "temperature": 23, "precipitation": 0, "humidity": 52, "wind_speed": 8},
+            {"date": "2025-05-28", "condition": "Sunny", "temperature": 25, "precipitation": 0, "humidity": 45, "wind_speed": 6},
+            {"date": "2025-05-29", "condition": "Partly Cloudy", "temperature": 24, "precipitation": 3, "humidity": 53, "wind_speed": 9}
+        ],
+        "42.9650° N, 85.6620° W": [
+            {"date": "2025-05-23", "condition": "Cloudy", "temperature": 22, "precipitation": 5, "humidity": 55, "wind_speed": 11},
+            {"date": "2025-05-24", "condition": "Light Rain", "temperature": 21, "precipitation": 10, "humidity": 68, "wind_speed": 13},
+            {"date": "2025-05-25", "condition": "Rain", "temperature": 19, "precipitation": 25, "humidity": 78, "wind_speed": 16},
+            {"date": "2025-05-26", "condition": "Heavy Rain", "temperature": 18, "precipitation": 35, "humidity": 88, "wind_speed": 22},
+            {"date": "2025-05-27", "condition": "Cloudy", "temperature": 20, "precipitation": 8, "humidity": 72, "wind_speed": 14},
+            {"date": "2025-05-28", "condition": "Partly Cloudy", "temperature": 22, "precipitation": 0, "humidity": 62, "wind_speed": 11},
+            {"date": "2025-05-29", "condition": "Sunny", "temperature": 23, "precipitation": 0, "humidity": 52, "wind_speed": 9}
+        ]
+    }

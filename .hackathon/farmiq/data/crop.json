@@ -1,0 +1,101 @@
+[
+        {
+            "id": "c001",
+            "land_id": "l001",
+            "crop_type": "Corn",
+            "plant_date": "2025-03-15",
+            "expected_harvest": "2025-08-20",
+            "current_yield": 78,  
+            "previous_yield": 82,  
+            "fertilizer_used": "NPK 20-10-10",
+            "pesticides_used": "Minimal"
+        },
+        {
+            "id": "c002",
+            "land_id": "l002",
+            "crop_type": "Soybeans",
+            "plant_date": "2025-04-10",
+            "expected_harvest": "2025-10-05",
+            "current_yield": 85,  
+            "previous_yield": 80,  
+            "fertilizer_used": "NPK 10-20-20",
+            "pesticides_used": "Organic controls"
+        },
+        {
+            "id": "c003",
+            "land_id": "l003",
+            "crop_type": "Apples",
+            "plant_date": "2020-04-01",  
+            "expected_harvest": "2025-09-15",
+            "current_yield": 65,  
+            "previous_yield": 75,  
+            "fertilizer_used": "Organic compost",
+            "pesticides_used": "Integrated pest management"
+        },
+        {
+            "id": "c004",
+            "land_id": "l004",
+            "crop_type": "Grapes",
+            "plant_date": "2018-05-10",  
+            "expected_harvest": "2025-09-30",
+            "current_yield": 90,  
+            "previous_yield": 88,  
+            "fertilizer_used": "Low nitrogen organic",
+            "pesticides_used": "Sulfur sprays"
+        },
+        {
+            "id": "c005",
+            "land_id": "l005",
+            "crop_type": "Rice",
+            "plant_date": "2025-05-01",
+            "expected_harvest": "2025-10-15",
+            "current_yield": 70,
+            "previous_yield": 75,
+            "fertilizer_used": "Balanced NPK",
+            "pesticides_used": "Minimal chemical"
+        },
+        {
+            "id": "c006",
+            "land_id": "l006",
+            "crop_type": "Strawberries",
+            "plant_date": "2025-04-05",
+            "expected_harvest": "2025-06-20",
+            "current_yield": 60,
+            "previous_yield": 55,
+            "fertilizer_used": "High potassium mix",
+            "pesticides_used": "Organic deterrents"
+        },
+        {
+            "id": "c007",
+            "land_id": "l007",
+            "crop_type": "Tomatoes",
+            "plant_date": "2025-05-10",
+            "expected_harvest": "2025-08-15",
+            "current_yield": 82,
+            "previous_yield": 78,
+            "fertilizer_used": "Calcium-rich organic",
+            "pesticides_used": "Neem oil spray"
+        },
+        {
+            "id": "c008",
+            "land_id": "l008",
+            "crop_type": "Bell Peppers",
+            "plant_date": "2025-04-20",
+            "expected_harvest": "2025-08-10",
+            "current_yield": 75,
+            "previous_yield": 72,
+            "fertilizer_used": "Balanced organic",
+            "pesticides_used": "Beneficial insects"
+        },
+        {
+            "id": "c009",
+            "land_id": "l001",
+            "crop_type": "Wheat",
+            "plant_date": "2024-10-15",
+            "expected_harvest": "2025-07-10",
+            "current_yield": 65,
+            "previous_yield": 70,
+            "fertilizer_used": "NPK 15-15-15",
+            "pesticides_used": "Fungicide treatment"
+        }
+    ]

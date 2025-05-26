@@ -34,44 +34,35 @@ async def json_search(tool_config: jsonSearchToolConfig, builder: Builder):
     import json
     import re
     
-    section_mapping = {
-        "farmer": ".FARMER_DATA[]",
-        "land": ".LAND_DATA[]",
-        "crop": ".CROP_DATA[]",
-        "weather": ".WEATHER_DATA | to_entries[] | {location: .key, data: .value[]}"
-    }
-
-    section_mapping["all"] = ".FARMER_DATA[], .LAND_DATA[], .CROP_DATA[], (.WEATHER_DATA | to_entries[] | {location: .key, data: .value[]})"
-
     jq_schema = tool_config.jq_schema
 
     if not jq_schema:
-        for keyword, schema in section_mapping.items():
-            if re.search(f"{keyword}s?", question.lower()):
-                jq_schema = schema
-                break
-        
-        if not jq_schema:
-            jq_schema = ".[]"
+        jq_schema = ".[]"
 
-    async def json_search(question: str) -> str:
-
-        search_docs = await JSONLoader(
-            file_path=tool_config.file_path,
-            jq_schema=jq_schema,
+    async def json_search(query: str) -> str:
+        search_docs = JSONLoader(
+            file_path = tool_config.file_path,
+            jq_schema = ".[]",
             text_content=False,
-            metadata_func=lambda metadata, doc: {
+            metadata_func=lambda _, doc: {
                 "source": tool_config.file_path,
                 "section": next(iter(doc)) if isinstance(doc, dict) else "unknown"
-            }).aload()
-
-        json_search_results = "\n\n---\n\n".join([
-            f'<Document source="{doc.metadata["source"]}" '
-            f'section="{doc.metadata.get("section", "")}">\n{json.dumps(doc.page_content, indent=2)}\n</Document>'
-            for doc in search_docs
+            }).load()
+        
+        filtered_docs = [
+            doc for doc in search_docs 
+            if query.lower() in json.dumps(doc.page_content).lower()
+        ]
+        
+        json_search_results = "\n".join([
+            f'{json.dumps(doc.page_content, indent=3)}'
+            for doc in filtered_docs
         ])
-
+        
+        
         return json_search_results
+
+
 
 
     yield FunctionInfo.from_fn(
